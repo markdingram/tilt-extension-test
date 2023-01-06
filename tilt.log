@@ -1,0 +1,23 @@
+Tilt started on http://localhost:10350/
+v0.30.13, built 2022-12-01
+
+Initial Build
+Loading Tiltfile at: /Volumes/Code/github.com/markdingram/tilt-extension-test/Tiltfile
+Successfully loaded Tiltfile (1.359873228s)
+     my_ext_2 │ 
+     my_ext_2 │ Initial Build
+     my_ext_2 │ Loading Tiltfile at: /Volumes/Code/github.com/markdingram/tilt-extension-test/custom_repo/my_ext_2/Tiltfile
+         otel │ 
+         otel │ Initial Build
+         otel │ Running cmd: helm repo add otel https://open-telemetry.github.io/opentelemetry-helm-charts --force-update
+     my_ext_2 │ Successfully loaded Tiltfile (13.45427ms)
+ERROR: [] "msg"="Reconciler error" "error"="Failed to update API server: [create extensionrepos/default: extensionrepos.tilt.dev \"default\" already exists, create extensions/helm_resource: extensions.tilt.dev \"helm_resource\" already exists]" "controller"="tiltfile" "controllerGroup"="tilt.dev" "controllerKind"="Tiltfile" "Tiltfile"={"name":"my_ext_2"} "namespace"="" "name"="my_ext_2" "reconcileID"="5ce46cec-2d4e-4ecd-af67-facb03b3d28f"
+ERROR: [] "msg"="Reconciler error" "error"="Failed to update API server: [create extensions/helm_resource: extensions.tilt.dev \"helm_resource\" already exists, create extensionrepos/default: extensionrepos.tilt.dev \"default\" already exists]" "controller"="tiltfile" "controllerGroup"="tilt.dev" "controllerKind"="Tiltfile" "Tiltfile"={"name":"my_ext_2"} "namespace"="" "name"="my_ext_2" "reconcileID"="ee32d92d-cfa5-487b-9aaf-9b77f952daed"
+ERROR: [] "msg"="Reconciler error" "error"="Failed to update API server: [create extensionrepos/default: extensionrepos.tilt.dev \"default\" already exists, create extensions/helm_resource: extensions.tilt.dev \"helm_resource\" already exists]" "controller"="tiltfile" "controllerGroup"="tilt.dev" "controllerKind"="Tiltfile" "Tiltfile"={"name":"my_ext_2"} "namespace"="" "name"="my_ext_2" "reconcileID"="96266349-e12c-443f-ac40-93f8c8645e54"
+ERROR: [] "msg"="Reconciler error" "error"="Failed to update API server: [create extensionrepos/default: extensionrepos.tilt.dev \"default\" already exists, create extensions/helm_resource: extensions.tilt.dev \"helm_resource\" already exists]" "controller"="tiltfile" "controllerGroup"="tilt.dev" "controllerKind"="Tiltfile" "Tiltfile"={"name":"my_ext_2"} "namespace"="" "name"="my_ext_2" "reconcileID"="0915a81c-5dc0-4300-9501-083cd2376282"
+ERROR: [] "msg"="Reconciler error" "error"="Failed to update API server: [create extensions/helm_resource: extensions.tilt.dev \"helm_resource\" already exists, create extensionrepos/default: extensionrepos.tilt.dev \"default\" already exists]" "controller"="tiltfile" "controllerGroup"="tilt.dev" "controllerKind"="Tiltfile" "Tiltfile"={"name":"my_ext_2"} "namespace"="" "name"="my_ext_2" "reconcileID"="eedbf2a2-c4cb-47ab-bcaa-305623fa1493"
+ERROR: [] "msg"="Reconciler error" "error"="Failed to update API server: [create extensionrepos/default: extensionrepos.tilt.dev \"default\" already exists, create extensions/helm_resource: extensions.tilt.dev \"helm_resource\" already exists]" "controller"="tiltfile" "controllerGroup"="tilt.dev" "controllerKind"="Tiltfile" "Tiltfile"={"name":"my_ext_2"} "namespace"="" "name"="my_ext_2" "reconcileID"="8860a8dc-cb22-4743-beb5-a928644f5a60"
+ERROR: [] "msg"="Reconciler error" "error"="Failed to update API server: [create extensions/helm_resource: extensions.tilt.dev \"helm_resource\" already exists, create extensionrepos/default: extensionrepos.tilt.dev \"default\" already exists]" "controller"="tiltfile" "controllerGroup"="tilt.dev" "controllerKind"="Tiltfile" "Tiltfile"={"name":"my_ext_2"} "namespace"="" "name"="my_ext_2" "reconcileID"="f44888b0-e8f6-46f2-9086-54516152431c"
+ERROR: [] "msg"="Reconciler error" "error"="Failed to update API server: [create extensionrepos/default: extensionrepos.tilt.dev \"default\" already exists, create extensions/helm_resource: extensions.tilt.dev \"helm_resource\" already exists]" "controller"="tiltfile" "controllerGroup"="tilt.dev" "controllerKind"="Tiltfile" "Tiltfile"={"name":"my_ext_2"} "namespace"="" "name"="my_ext_2" "reconcileID"="ac4bda6e-6130-437c-903f-535eb66992f8"
+         otel │ "otel" has been added to your repositories
+SUCCESS. All workloads are healthy.

@@ -1,0 +1,4 @@
+load('ext://helm_resource', 'helm_repo', 'helm_resource')
+
+def setup_repo2():
+    helm_repo('otel2', 'https://open-telemetry.github.io/opentelemetry-helm-charts')
